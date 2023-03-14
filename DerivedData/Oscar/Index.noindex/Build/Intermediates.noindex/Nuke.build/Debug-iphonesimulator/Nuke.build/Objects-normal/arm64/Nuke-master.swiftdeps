@@ -1,0 +1,59 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "422986386546bdcee71fbc91df27f333cb844e7a29c13150d06c8d236dd710bf"
+build_start_time: [1678769626, 467173099]
+build_end_time: [1678769628, 687198162]
+inputs:
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/DataCache.swift"
+  : [1678747452, 417751312]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/DataLoader.swift"
+  : [1678747452, 418071031]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/Deprecated.swift"
+  : [1678747452, 418337345]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/ImageCache.swift"
+  : [1678747452, 418452978]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/ImageDecoding.swift"
+  : [1678747452, 418590068]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/ImageEncoding.swift"
+  : [1678747452, 418786525]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/ImagePipeline.swift"
+  : [1678747452, 418915271]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/ImagePipelineConfiguration.swift"
+  : [1678747452, 419035196]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/ImagePrefetcher.swift"
+  : [1678747452, 419142961]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/ImageProcessing.swift"
+  : [1678747452, 419358253]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/ImagePublisher.swift"
+  : [1678747452, 419462680]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/ImageRequest.swift"
+  : [1678747452, 419608592]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/ImageTask.swift"
+  : [1678747452, 419708967]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/ImageViewExtensions.swift"
+  : [1678747452, 419896602]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/Internal/Allocations.swift"
+  : [1678747452, 420031547]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/Internal/Extensions.swift"
+  : [1678747452, 420102357]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/Internal/LinkedList.swift"
+  : [1678747452, 420168876]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/Internal/Log.swift"
+  : [1678747452, 420403480]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/Internal/Operation.swift"
+  : [1678747452, 420512676]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/Internal/RateLimiter.swift"
+  : [1678747452, 420615673]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/Internal/ResumableData.swift"
+  : [1678747452, 420713901]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/Tasks/ImagePipelineTask.swift"
+  : [1678747452, 420822143]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/Tasks/Task.swift"
+  : [1678747452, 420940399]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/Tasks/TaskDecodeImage.swift"
+  : [1678747452, 421098232]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/Tasks/TaskLoadImage.swift"
+  : [1678747452, 421184539]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/Tasks/TaskLoadImageData.swift"
+  : [1678747452, 421287059]
+  ? "/Users/kripalamichhane/Library/Developer/Xcode/DerivedData/Oscar-aezgtlsaufvhmcfwvasfkkcwpxmq/SourcePackages/checkouts/Nuke/Sources/Tasks/TaskProcessImage.swift"
+  : [1678747452, 421369314]
