@@ -10,14 +10,15 @@ import Nuke
 
 class TrackCell: UITableViewCell {
 
-    @IBOutlet weak var trackImageView: UIImageView!
-    @IBOutlet weak var trackNameLabel: UILabel!
+    @IBOutlet weak var poster_path: UIImageView!
+    @IBOutlet weak var overview: UILabel!
     @IBOutlet weak var original_titleLabel: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
+  
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
@@ -27,11 +28,11 @@ class TrackCell: UITableViewCell {
 
     /// Configures the cell's UI for the given track.
     func configure(with track: Track) {
-        trackNameLabel.text = track.trackName
+        overview.text = track.overview
         original_titleLabel.text = track.original_title
 
         // Load image async via Nuke library image loading helper method
-        Nuke.loadImage(with: track.artworkUrl100, into: trackImageView)
+        Nuke.loadImage(with: track.poster_path, into: poster_path)
     }
 
 }

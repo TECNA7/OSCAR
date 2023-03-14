@@ -119,7 +119,7 @@ class TracksViewController: UIViewController, UITableViewDataSource {
             detailViewController.track = track
         }
     }
-
+        
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return tracks.count
     }
@@ -139,4 +139,19 @@ class TracksViewController: UIViewController, UITableViewDataSource {
         // return the cell for display in the table view
         return cell
     }
+
+@IBAction func tapOption(_ sender: UITapGestureRecognizer) {
+    if let tappedView = sender.view {
+        performSegue(withIdentifier: "detailSegue", sender: tappedView)
+    }
 }
+/**
+ print( "Here are the different introduction:")
+ for introduction in introduction {
+ print(introduction)
+ }
+ */
+
+
+
+    }

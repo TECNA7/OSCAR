@@ -22,7 +22,7 @@ class MoviesViewController: UIViewController, UICollectionViewDataSource {
            let imageUrl = movie.poster_path
 
            // Set the image on the image view of the cell
-           Nuke.loadImage(with: imageUrl, into: cell.movieImageView)
+           Nuke.loadImage(with: imageUrl, into: cell.poster_path)
            return cell
     }
     
@@ -77,7 +77,7 @@ class MoviesViewController: UIViewController, UICollectionViewDataSource {
             let numberOfColumns: CGFloat = 3
 
             // Calculate the width each cell need to be to fit the number of columns, taking into account the spacing between cells.
-            let width = (self?.collectionView.bounds.width - layout.minimumInteritemSpacing * (numberOfColumns - 1)) / numberOfColumns
+            let width = (self!.collectionView.bounds.width - layout.minimumInteritemSpacing * (numberOfColumns - 1)) / numberOfColumns
 
             // Set the size that each tem/cell should display at
             layout.itemSize = CGSize(width: width, height: width)
