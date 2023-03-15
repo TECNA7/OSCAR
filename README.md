@@ -29,7 +29,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<iframe src="https://giphy.com/embed/YpLEQSArATqEThG1vO" width="480" height="321" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/YpLEQSArATqEThG1vO">via GIPHY</a></p>
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/99E8zuG" data-context="false" ><a href="//imgur.com/a/99E8zuG"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with giphy
